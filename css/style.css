@@ -1,0 +1,556 @@
+/* font */
+@font-face {
+    font-family: 'PlusJakarta-regular',sans-serif;
+    src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Regular.ttf');
+}
+@font-face {
+    font-family: 'PlusJakarta-medium',sans-serif;
+    src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Medium.ttf');
+}
+@font-face {
+    font-family: "PlusJakarta-bold", sans-serif;
+    src: url('/fonts/Plus_Jakarta_Sans/PlusJakartaSans-Bold.ttf');
+}
+
+/* common start */
+:root{
+    --plus: 'PlusJakarta-medium', sans-serif;
+    --fwm: 500;
+    --black: #000000;
+    --gray: #7E7E7E;
+    --green: #2EBB77;
+    --red: #FD511A;
+    --bgg: #F5F5F5;
+    --white: #ffffff;
+    --bgg2: #E5E5E5;
+}
+body{
+    font-family: var(--plus);
+    font-size: 16px;
+    font-weight: var(--fwm);
+    color: var(--gray);
+    background-color: var(--bgg2);
+    h1, h2, h3{
+        color: var(--black);
+    }
+    p{
+        
+    }
+}
+/* common end */
+/* header start */
+header{
+    padding: 0;
+    background-color: var(--bgg2);
+}
+.topbar{
+    padding: 20px 0;
+    text-align: center;
+    background: linear-gradient(90deg, rgba(246,253,236,1) 7%, rgba(219,244,226,1) 99%);
+
+}
+.toph{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+}
+.btnshop{
+    margin-left: 15px;
+    background-color: #ffffff !important;
+    font-weight: 700;
+    color: var(--black) !important;
+    border-radius: 5px !important;
+}
+.m-nav{
+    background-color: #ffffff !important;
+}
+.logo{}
+.menu{}
+.menu ul li a{
+    padding: 0 20px !important;
+    font-family: var(--plus);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black) !important;
+    line-height: 24px;
+}
+.menu ul li a:hover{
+    color: var(--green) !important;
+}
+.icon{
+    width: 48px;
+    height: 51px;
+    background-color: #d6dbd9;
+    border-radius: 50%;
+}
+.c_icon{
+    position: relative;
+    margin-left: 15px;
+    padding-top: 14px !important;
+    font-size: 20px;
+    color: var(--black);
+}
+.span{
+    position: absolute;
+    margin: -8px 0 0px 34px;
+    width: 23px;
+    height: 23px;
+    display: inline-block;
+    background-color: #97e297;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+}
+.hotline{
+    padding: 0 0px 0 30px;
+    color: var(--black);
+}
+.hotline p{}
+.btn_c{
+    background-color: var(--green);
+    font-family: var(--plus);
+    font-weight: 700;
+    line-height: 25px;
+    color: var(--white);
+    border: 0;
+    border-radius: 5px;
+}
+.btn_sign{
+    margin: 0 28px 10px;
+    padding: 10px 25px;
+}
+.btn_c:hover ,.btn_c:active{
+    background-color: var(--gray) !important;
+    color: var(--white) !important;
+}
+
+/* header end */
+
+/* bnner start */
+.btn_own{
+    color: #B479D9;
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(180,121,217,0.14889705882352944) 0%);
+}
+.btn_own:hover{
+    background-color: var(--bgg2) !important;
+    color: #B479D9 !important;
+}
+.banner{
+    padding: 50px 0 40px;
+}
+.b_text{}
+.b_text h1{
+    padding: 0px 110px 0 0px;
+    font-size: 60px;
+    font-weight: 700;
+    
+}
+.h1{
+    padding: 20px 0;
+}
+.b_text p{
+    font-weight: 500;
+}
+.print{
+    padding: 0 25px 0 0;
+}
+.btndiv{
+    padding: 15px 0;
+}
+.work_btn{
+    margin-left: 20px;
+    color: #000;
+    /* border: .1px solid #d7d5d5; */
+    background-color: var(--bgg2);
+}
+.work_btn:hover{
+    background-color: #5d576e !important;
+}
+.counter{}
+.counter h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.count_left{}
+.count_right{
+    padding: 0  0  0px 60px;
+}
+/* banner end */
+
+/* brand logo start */
+.brandlogo{
+    padding: 100px 0 90px;
+    background-color: #FFFFFF;
+}
+.l_text{}
+.l_text h2{
+    padding: 0 180px;
+    font-size: 24px;
+    font-weight: 700;
+    align-items: center;
+    text-align: center;
+}
+.l_img{}
+.l_img img{}
+/* brand logo end */
+
+/* custom shirt start */
+.custom_shirt{
+    padding: 100px 0 80px;
+}
+.sh_text{
+    text-align: center;
+}
+.sh_text h1{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.sh_text p{
+    padding: 0 260px;
+}
+
+
+/* 2nd row */
+
+.t_common{
+    padding: 80px 0 0;
+}
+.t_img{}
+.t_img img{}
+.t_text{
+    margin-top: 85px;
+
+}
+.t_text h2{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+}
+.t_text p{
+    padding-right: 150px;
+    line-height: 32px;
+}
+/* custom shirt end */
+/* free and easy start */
+.easy{
+    background-color: var(--bgg);
+}
+.easytext{
+    font-size: 48px !important;
+    line-height: 60px !important;
+}
+.easyp{
+    padding: 5px 0 8px;
+}
+/* 2nd row */
+.easypadding{
+    padding: 90px 0 0;
+}
+
+/* 3rd row */
+.premium_text{}
+.premium_text h2{
+    font-size: 20px;
+    line-height: 28px;
+}
+.customize{
+    margin: 25px -20px;
+    padding: 25px 30px 10px 20px;
+    background-color: var(--white);
+    box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.12);
+-webkit-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.12);
+-moz-box-shadow: 0px 6px 5px 0px rgba(0,0,0,0.12);
+}
+.customize h2{}
+.customize p{
+    padding: 10px 0;
+    line-height: 28px;
+}
+.free_template{
+    padding: 30px 0 60px;
+}
+.free_shipping{}
+/* free and easy end */
+
+/* our picks start */
+.our_picks{
+    padding: 100px 0 90px;
+}
+.slider{
+    
+}
+.slider img{
+    width: 250px;
+    
+}
+ .slider h2{
+        padding: 15px 0 8px;
+        font-size: 16px;
+ }
+ .slider p{
+    color: var(--black);
+ }
+ .slider p:hover{
+    color: var(--green);
+ }
+
+ /* 3rd row */
+ .our_left{
+    margin-top: 30px;
+    padding: 52px 0;
+    background-image: url(../images/shirt1.png);
+ }
+ .our_right{
+    margin-top: 30px;
+    padding: 52px 0;
+    background-image: url(../images/shirtpic.png);
+ }
+ .our_text{
+    padding: 40px 270px 20px 25px;
+ }
+ .our_text h2{}
+ .our_text p{
+    padding: 5px 0 22px 0px;
+ }
+/* our picks end */
+
+/* products teespace start */
+.teespace{
+    padding: 100px 0 80px;
+     background-image: url(../images/clip-path.png );
+     background-repeat: no-repeat;
+     background-size: cover;
+     
+}
+
+    .tee_left{
+    }   
+    .tee_left h1{
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 60px;
+    }   
+    .tee_left p{
+        padding: 25px 0 18px;
+    }  
+    .tee_c{
+        margin-top: -120px;
+    }
+    
+    .tee_item{
+        margin: 10px 0;
+        padding: 30px 0px 15px;
+        background-color: var(--white);
+        border-radius: 10px;
+        box-shadow: 1px 0px 7px 0px rgba(0,0,0,0.16);
+        -webkit-box-shadow: 1px 0px 7px 0px rgba(0,0,0,0.16);
+        -moz-box-shadow: 1px 0px 7px 0px rgba(0,0,0,0.16);
+    }
+    .tee_item img{
+        padding: 0 15px;
+    }
+    .tee_item h2{
+        padding: 27px 14px 10px;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 28px;
+    }
+    .tee_item p{
+        padding: 0 15px;
+        line-height: 27px;
+    }
+    .p_padd{
+        padding-bottom: 27px !important;
+    }
+    .tee_text{
+        margin-top: 35px;
+        margin-right: -23px;
+        padding: 20px 340px 70px 40px;
+        background-image: url(../images/custom-product.png);
+        background-position: right;
+    }
+    .tee_text h2{}
+    .tee_text p{
+        padding: 21px 0 32px;
+    }
+
+/* products teespace end */
+
+/* more resource start */
+    .resources{
+        padding: 100px  80px;
+    }
+    .r_text{
+        padding-bottom: 40px;
+    }
+    .r_text h1{
+        padding-bottom: 10px;
+    }
+    /* 2nd row */
+
+    .b_img{}
+    .b_img img{
+        height: 200px;
+    }
+    .b_text{}
+    .b_text h2{
+        padding: 23px 0 20px;
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 34px;
+    }
+    .b_btn{
+        color: var(--green);
+        background-color: var(--white);
+        border-radius: 20px;
+    }
+    .b_btn:hover{
+        background-color: var(--white) !important;
+        color: var(--green) !important;
+    }
+    .admin_img{}
+    .admin_img img{}
+    .admin_text{}
+    .admin_text p{}
+    .admin_text span{
+        color: var(--green);
+    }
+/* more resource end */
+
+/*  What People Are Saying start */
+    .p_saying{
+        padding: 100px 0 80px;
+        background-image: url(../images/Main.jpg);
+        background-position: 50%;
+        
+    }
+    .p_slider{
+
+    }
+    .p_say{
+        width: 345px !important;
+        height: 300px;
+        background-color: var(--bgg);
+        border-radius: 15px;
+    }
+    .p_say p{
+         padding: 10px 32px 0px 35px;
+    }
+    .p_img{
+        padding: 25px;
+    }
+    .p_img h2{
+        padding: 22px 0 0 32px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .p_img p{
+        padding: 22px 0 0 5px;
+    }
+/*  What People Are Saying end */
+
+/* Enjoy up  T-shirts start */
+
+.best{
+    
+    padding: 28px 0 27px;
+    background-image: url(../images/bestT30.png);
+    background-position: 100%;
+    
+}
+.best_t{
+    padding: 10px 0;
+}
+.best_t h1 {
+    padding: 80px 272px 0px;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.best_t p{
+    padding: 0 0 0px;
+}
+.btn_best{
+    margin: 0 0 0 10px;
+    color: var(--black);
+    background-color: var(--white);
+}
+/* Enjoy up  T-shirts end */
+/* social */
+.social{
+    padding: 10px 0;
+}
+.social ul li a{
+    padding: 0 70px !important;
+    font-family: var(--plus);
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--black) !important;
+    line-height: 24px;
+}
+
+/* footer top */
+
+.footer_top{
+    padding: 55px 0 55px;
+    background-color: var(--bgg);
+}
+.ft_details{
+    padding-right: 120px;
+}
+.ft_details p{
+    color: var(--gray);
+    line-height: 30px;
+}
+.black{
+    font-weight: 700;
+    color: var(--black) !important;
+}
+
+.ft_links{}
+.ft_links h2{
+    margin-bottom: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--black);
+    line-height: 30px;
+}
+.ft_links ul li a{
+    margin-bottom: 8px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--gray);
+}
+/* button */
+.c_form{
+    margin-top: 35px;
+    margin-bottom: 70px;
+    position: relative;
+}
+.c_input{
+    height: 35px;
+    font-family: var(--plus);
+    color: var(--white);
+    padding: 15px 20px;
+}
+.sbmt{
+    position: absolute;
+    top: 6px;
+    right: 15px;
+}
+
+/* footer start */
+footer{
+    padding: 20px 0 30px;
+    background-color: var(--bgg);
+    
+}
+footer p{
+    color: var(--black);
+    line-height: 30px;
+}
+footer p a{
+    color: var(--black);
+    text-decoration: none;
+}
